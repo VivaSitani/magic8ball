@@ -1,4 +1,3 @@
-let number = 0
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
     pins.digitalWritePin(DigitalPin.P0, 0)
@@ -23,3 +22,5 @@ input.onGesture(Gesture.Shake, function () {
     	
     }
 })
+let number = 0
+pins.digitalWritePin(DigitalPin.P0, 0)
